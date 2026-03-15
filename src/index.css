@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-size: 12px;  
+  background-color: #cdb4db !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-family: "poppins", sans-serif !important;  
+  font-weight: 500;
+  color: royalblue;
+}
+
+.man-heading{
+  font-family: 'Roboto' ,sans-serif !important;
+  font-size: 2 rem;
+  color:  royalblue;
+  margin: 1.5rem auto;
+}
+
+.container{
+  border-radius: 4px !important;
+}
+
+
+.regist-container{
+  background-color: #cdb4db;
+  border: 2px solid #cdb4db;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-container{
+  background-color: #cdb4db;
+
+}
+
+
+.rounded-pill{
+  margin: .5rem;
+  background-color: #ff006e !important;
+  border-color: #ff006e !important;
+}
+
+
+.foodCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+
+.FoodCard {  
+  height: 280px;  
+  width: 240px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #ff006e;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+}
+.FoodCard img {
+  height: 150px;
+  width: 98%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.FoodCard h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.FoodCard p{
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; 
+  display: -webkit-box;  
+  -webkit-box-orient: vertical; 
+}
+
