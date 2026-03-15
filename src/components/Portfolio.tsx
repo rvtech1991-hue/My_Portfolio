@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-
 import { 
-  Github, 
   Linkedin, 
   Twitter, 
   Mail, 
@@ -9,7 +7,6 @@ import {
   Download,
   ExternalLink,
   User,
-  Code,
   Briefcase,
   MessageCircle
 } from 'lucide-react';
@@ -368,12 +365,11 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
                   </div>
                 </div> */}
 
-                <img src={machine2} style={{ 
-                    width: '100%', 
-                    height: 'auto', 
-                    maxWidth: '480px' 
-                }} />
-
+               <img 
+                src={machine2} 
+                alt="Coding workspace"
+                style={{ width: '100%', height: 'auto', maxWidth: '480px' }}
+              />
 
               </div>
             </div>
@@ -675,5 +671,4 @@ const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
 };
 
 export default Portfolio;
-
 
