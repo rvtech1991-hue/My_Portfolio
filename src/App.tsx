@@ -1,17 +1,31 @@
 import './App.css';
-import Portfolio from './components/Portfolio';
+import ClassicPortfolio from './components/ClassicPortfolio';
+import ModernPortfolio from './components/ModernPortfolio';
+import FloatingToggle from './components/FloatingToggle';
+import { AppSettingsProvider, useAppSettings } from './context/AppSettingsContext';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-function App() {
+function AppContent() {
+  const { version, theme } = useAppSettings();
+
   return (
     <div className="App">
       <header className="bg-light">
-        <Portfolio />
+        {version === 'classic' ? <ClassicPortfolio /> : <ModernPortfolio />}
       </header>
 
-      <ToastContainer position="top-right" autoClose={3000} />
+      <FloatingToggle />
+      <ToastContainer position="top-right" autoClose={3000} theme={theme} />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <AppSettingsProvider>
+      <AppContent />
+    </AppSettingsProvider>
   );
 }
 
