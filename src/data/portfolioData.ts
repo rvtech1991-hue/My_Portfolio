@@ -2,14 +2,14 @@ export const personalInfo = {
   name: 'Rakesh Vishwakarma',
   title: 'Azure Solutions Architect Expert',
   roleSummary: 'Senior Technical Architect & Engineering Leader',
-  yearsExperience: 13,
+  yearsExperience: 14,
   bio:
-    'Senior Technical Architect and Engineering Leader with 13+ years designing, migrating, and optimizing ' +
+    'Senior Technical Architect and Engineering Leader with 14+ years designing, migrating, and optimizing ' +
     'enterprise-scale, high-concurrency platforms across the BFSI and SaaS sectors. Microsoft Certified Azure ' +
     'Solutions Architect Expert, specializing in multi-tenant microservices architectures built on .NET Core, ' +
     'ASP.NET Core, and cloud platforms (Azure / AWS).',
   aboutParagraphs: [
-    'I am a Senior Technical Architect and Engineering Leader with 13+ years of progressive experience ' +
+    'I am a Senior Technical Architect and Engineering Leader with 14+ years of progressive experience ' +
       'spearheading the design, cloud migration, and optimization of enterprise-scale, high-concurrency web ' +
       'ecosystems across the SaaS and BFSI sectors.',
     'I specialize in pioneering multi-tenant microservices architectures using .NET Core, ASP.NET Core, and ' +
